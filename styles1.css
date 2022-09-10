@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("./fonts/Gilroy-ExtraBold.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("./fonts/Gilroy-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gilroy-medium";
+    src: url("./fonts/gilroy-medium.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/gilroy-bold.ttf") format("TrueType");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gilroy-Bold";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border-bottom: 1px solid #828282;
+    height: 88px;
+    font-size: 18px;
+    align-items: center;
+    color: black;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.grey {
+    background: #F6F6F6;
+    max-width: none;
+}
+
+nav span:hover {
+    color: grey
+}
+
+.name {
+    display: inline-block;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 47.3392px;
+    line-height: 59px;
+    font-family: "Gilroy-Bold";
+}
+
+.name1 {
+    display: inline-block;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 297.23px;
+}
+
+.name2 {
+    display: inline-block;
+    writing-mode: tb-rl;
+    transform: translateX(330px) rotate(180deg);
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 246.68px;
+}
+
+.name2 span {
+    color: #828282;
+}
+
+.photo {
+    text-align: center;
+}
+
+.about {
+    height: 506px;
+    margin: 0;
+    font-family: 'Gilroy-medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 90.25px;
+}
+
+.skills {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    height: 500px;
+}
+
+.aae {
+    font-family: "Gilroy-ExtraBold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 34px;
+    font-family: "Gilroy-Bold";
+    transform: translateY(50px);
+}
+
+.programs2 {
+    font-family: "Gilroy-ExtraBold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.progs {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 91px;
+    font-size: 34px;
+}
+
+.programms3 {
+    font-family: "Gilroy-Bold";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    font-family: "Gilroy-ExtraBold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+
+.portfolio p {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 59.09px;
+}
+
+.ofsp {
+    width: 936.24px;
+    height: 510px;
+    padding-top: 47px;
+}
+
+h4 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 112.93px;
+}
+
+h5 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 114.24px;
+}
+
+
+button {
+    display: inline-block;
+    background-color: #070707;
+    color: white;
+    border: solid black;
+    border-radius: 25px;
+    width: 180.5px;
+    height: 42px;
+    font-family: "Gilroy-Bold";
+    text-align: center;
+    font-size: 18px;
+    transform: translateY(-25px);
+}
+
+.contactlinks {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 342.18px;
+    transform: translateY(30px);
+}
+
+.contacts {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    height: 622px;
+    background-color: white;
+}
+
+.like {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    transform: translateY(50px);
+}
+
+.figma {
+    transform: translateY(18px);
+}
+
+.class123 {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    transform: translateY(-30px);
+}
