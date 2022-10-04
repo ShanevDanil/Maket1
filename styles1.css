@@ -52,7 +52,7 @@ nav span:hover {
     display: inline-block;
     align-items: flex-start;
     text-align: center;
-    font-size: 47.3392px;
+    font-size: 47px;
     line-height: 59px;
     font-family: "Gilroy-Bold";
 }
@@ -62,7 +62,7 @@ nav span:hover {
     font-family: "Gilroy-Medium";
     font-size: 18px;
     line-height: 22px;
-    padding-left: 297.23px;
+    padding-left: 297px;
 }
 
 .name2 {
@@ -72,15 +72,15 @@ nav span:hover {
     font-family: "Gilroy-Bold";
     font-size: 16px;
     line-height: 20px;
-    margin-right: 246.68px;
+    margin-right: 246px;
 }
 
 .name2 span {
     color: #828282;
 }
 
-.photo {
-    text-align: center;
+.photo1 {
+    max-width: 100%;
 }
 
 .about {
@@ -90,6 +90,11 @@ nav span:hover {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+}
+
+.iam {
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -108,22 +113,15 @@ h2 {
     height: 500px;
 }
 
-.aae {
-    font-family: "Gilroy-ExtraBold";
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-}
-
 .programs {
     display: flex;
     justify-content: space-between;
     font-size: 34px;
     font-family: "Gilroy-Bold";
-    transform: translateY(50px);
 }
 
-.programs2 {
+.programms1 {
+    height: 206px;
     font-family: "Gilroy-ExtraBold";
     font-size: 34px;
     line-height: 42px;
@@ -131,15 +129,25 @@ h2 {
     color: #070707;
 }
 
+.stars {
+    margin-top: 25px;
+}
+
+.stars1 {
+    margin-top: 43px;
+}
+
 .progs {
     font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    margin-top: 69px;
+    margin-bottom: 83px;
 }
 
 h3 {
-    padding-top: 91px;
+    margin-top: 91px;
     font-size: 34px;
 }
 
@@ -151,6 +159,7 @@ h3 {
     text-align: center;
     color: #828282;
 }
+
 
 .portfolio {
     background: #F6F6F6;
@@ -192,7 +201,8 @@ h5 {
     line-height: 42px;
     text-align: center;
     color: #070707;
-    padding-top: 114.24px;
+    padding-top: 114px;
+    padding-bottom: 20px;
 }
 
 
@@ -202,23 +212,29 @@ button {
     color: white;
     border: solid black;
     border-radius: 25px;
-    width: 180.5px;
+    width: 180px;
     height: 42px;
     font-family: "Gilroy-Bold";
     text-align: center;
     font-size: 18px;
-    transform: translateY(-25px);
+}
+
+.message {
+    padding-bottom: 86px;
 }
 
 .contactlinks {
     display: inline-flex;
     justify-content: space-between;
     text-align: center;
-    width: 342.18px;
-    transform: translateY(30px);
+    width: 342px;
+    padding-bottom: 45px;
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Gilroy-Medium';
     font-size: 14px;
     line-height: 22px;
@@ -232,11 +248,7 @@ button {
     line-height: 17px;
     text-align: center;
     color: #828282;
-    transform: translateY(50px);
-}
-
-.figma {
-    transform: translateY(18px);
+    padding-bottom: 123px;
 }
 
 .class123 {
@@ -244,5 +256,5 @@ button {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    transform: translateY(-30px);
+    padding-bottom: 30px;
 }
